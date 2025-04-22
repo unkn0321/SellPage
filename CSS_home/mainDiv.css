@@ -1,12 +1,17 @@
+body{
+    min-width:764px ;
+}
 .mainDiv {
-    height: 600px;
-    width: 75%;
-    margin: 20px 25px 20px 25px;
+    height: 520px;
+    width: 65%;
+
     background-blend-mode: multiply;
     background-color: rgb(70, 40, 24);
     background-image: url("/SellPage/assets/mainPic.png");
     background-repeat: no-repeat;
-    object-fit:cover;
+    background-position: center;
+    background-size: 200%;
+    object-fit: cover;
     display: flex;
     flex-direction: row;
     justify-self: center;

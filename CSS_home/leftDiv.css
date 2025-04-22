@@ -1,7 +1,7 @@
-.lefttDiv{
+.leftDiv{
     padding: 20px;
-    width:60%;
-    height: auto;
+    width:50%;
+    height: inherit;
     display: flex;
     flex-direction: column;
 }
