@@ -1,0 +1,55 @@
+.lefttDiv{
+    padding: 20px;
+    width:60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+}
+.navigator{
+    color: #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navigator a{
+    margin:0 12px 0 12px;
+}
+.navigator a:hover{
+    text-shadow: 0 0 5px #dbdbdb;
+}
+.subDiv{
+    border: 1px dotted #dbdbdb;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px;
+}
+.subTitle{
+    padding: 5px 10px 5px 10px;
+    background-color:rgba(0,0,0,50%);
+}
+.subTitle h2{
+    color: #dbdbdb;
+    margin: 0;
+}
+.subContent{
+    color:#dbdbdb;
+    padding:0 10px 0 10px;
+}
+.subButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+.subButton a{
+    color: #dbdbdb;
+    margin: 10px;
+}
+.subButton a:hover{
+    text-shadow: 0 0 5px #dbdbdb;
+}
