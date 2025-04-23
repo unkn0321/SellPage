@@ -17,11 +17,6 @@
     .rightDiv{
         width: inherit !important;
         height: 600px !important;
-        background-image: url("../assets/aboutPic.png");
-        background-repeat: no-repeat !important;
-        background-position: center !important;
-        background-size: 200% !important;
-        object-fit:cover !important;
     }
     .floatTag{
         padding:5px !important;
@@ -40,15 +35,14 @@ body{
     background-image: url("../assets/aboutPic.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    object-fit: cover;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-self: center;
     margin-top: 15%;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #695733;
 }
 .floatTag{
     color: rgb(227, 116, 56);
