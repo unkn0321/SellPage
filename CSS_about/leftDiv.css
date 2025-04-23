@@ -38,7 +38,7 @@
 }
 .subTitle{
     padding: 5px 10px 5px 10px;
-    background-color:rgba(133, 24, 24, 0.5);
+    background-color:rgba(99, 24, 133, 0.5);
 }
 .subTitle h2{
     color: #eed9b0;
@@ -47,25 +47,4 @@
 .subContent{
     color:#dbdbdb;
     padding:0 10px 0 10px;
-}
-.subButton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 5px;
-}
-.subButton a{
-    color: #dbdbdb;
-    margin: 20px;
-}
-.subButton a:hover{
-    text-shadow: 0 0 5px #dbdbdb;
-    border-bottom:1px dashed #eed9b0;
-    border-top: 1px dashed #eed9b0;
-}
-.subButton a:active{
-    color: #f06b6b;
-    text-shadow: 0 0 5px #eed9b0;
-    border-bottom:none;
-    border-top: none;
 }
