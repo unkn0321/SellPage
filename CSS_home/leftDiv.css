@@ -17,15 +17,15 @@
     flex-direction: row;
     justify-content: center;
 }
-.navigator a{
+.nav{
     color: #dbdbdb;
     text-decoration: none;
     margin:0 12px 0 12px;
 }
-.navigator a:hover{
+.nav:hover{
     text-shadow: 0 0 5px #dbdbdb;
 }
-.navigator a:active{
+.nav:active{
     color: #f06b6b;
     text-shadow: 0 0 5px #eed9b0;
 }
