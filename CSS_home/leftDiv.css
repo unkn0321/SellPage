@@ -46,6 +46,7 @@
 .subContent{
     color:#dbdbdb;
     padding:0 10px 0 10px;
+    font-family: "ChineseContent";
 }
 .subButton{
     display: flex;

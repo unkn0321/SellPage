@@ -38,7 +38,7 @@ body{
     margin:50px 300px 50px 300px ;
     background-blend-mode:multiply;
     background-color: rgb(101, 86, 31);
-    background-image: url("/SellPage/assets/contactPic.png");
+    background-image: url("../assets/contactPic.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;

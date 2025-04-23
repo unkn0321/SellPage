@@ -17,7 +17,7 @@
     .rightDiv{
         width: inherit !important;
         height: 600px !important;
-        background-image: url("/SellPage/assets/mainPic.png");
+        background-image: url("../assets/mainPic.png");
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-size: 400% !important;
@@ -37,7 +37,7 @@ body{
     margin:50px 300px 50px 300px ;
     background-blend-mode: multiply;
     background-color: rgb(70, 40, 24);
-    background-image: url("/SellPage/assets/mainPic.png");
+    background-image: url("../assets/mainPic.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150%;

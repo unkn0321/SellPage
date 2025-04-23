@@ -1,7 +1,7 @@
 .rightDiv{
     width:50%;
     height: inherit;
-    background-image: url("/SellPage/assets/mainPic.png");
+    background-image: url("../assets/mainPic.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 400%;
