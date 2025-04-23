@@ -6,9 +6,11 @@
     flex-direction: column;
 }
 .title{
-    color: #dbdbdb;
+    color: #eed9b0;
     display: flex;
     justify-content: center;
+    font-family:cursive;
+    text-shadow: 0 0 10px #000;
 }
 .navigator{
     color: #dbdbdb;
@@ -22,6 +24,10 @@
 .navigator a:hover{
     text-shadow: 0 0 5px #dbdbdb;
 }
+.navigator a:active{
+    color: #f06b6b;
+    text-shadow: 0 0 5px #eed9b0;
+}
 .subDiv{
     border: 1px dotted #dbdbdb;
     border-radius: 5px;
@@ -30,10 +36,10 @@
 }
 .subTitle{
     padding: 5px 10px 5px 10px;
-    background-color:rgba(0,0,0,50%);
+    background-color:rgba(133, 24, 24, 0.5);
 }
 .subTitle h2{
-    color: #dbdbdb;
+    color: #eed9b0;
     margin: 0;
 }
 .subContent{
@@ -48,8 +54,16 @@
 }
 .subButton a{
     color: #dbdbdb;
-    margin: 10px;
+    margin: 20px;
 }
 .subButton a:hover{
     text-shadow: 0 0 5px #dbdbdb;
+    border-bottom:1px dashed #eed9b0;
+    border-top: 1px dashed #eed9b0;
+}
+.subButton a:active{
+    color: #f06b6b;
+    text-shadow: 0 0 5px #eed9b0;
+    border-bottom:none;
+    border-top: none;
 }

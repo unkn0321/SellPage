@@ -1,16 +1,46 @@
+@media  (max-width:1248px) {
+    .floatTag{
+        position: absolute !important;
+        left:85% !important;
+    }
+    .mainDiv{
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+        margin-right:50px !important;
+        margin-left:50px !important;
+    }
+    .leftDiv{
+        width: inherit !important;
+        padding-right: 20px!important;
+    }
+    .rightDiv{
+        width: inherit !important;
+        height: 600px !important;
+        background-image: url("/SellPage/assets/mainPic.png");
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: 400% !important;
+        object-fit:cover !important;
+    }
+    .floatTag{
+        padding:5px !important;
+        width: auto !important;
+        border-radius: 100% !important;
+    }
+}
 body{
-    min-width:764px ;
+    min-width:150px ;
 }
 .mainDiv {
-    height: 520px;
-    width: 65%;
-
+    margin-top: 50px !important;
+    margin:50px 300px 50px 300px ;
     background-blend-mode: multiply;
     background-color: rgb(70, 40, 24);
     background-image: url("/SellPage/assets/mainPic.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200%;
+    background-size: 150%;
     object-fit: cover;
     display: flex;
     flex-direction: row;
@@ -18,4 +48,17 @@ body{
     margin-top: 15%;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 0 20px #000;
+}
+.floatTag{
+    color: rgb(227, 116, 56);
+    mix-blend-mode:screen;
+    text-shadow: 0 0 10px rgb(227, 56, 56);
+    position:absolute;
+    margin: 0;
+    right:50%;
+    background-color: rgba(227, 56, 56, 0.5);
+    padding:5px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgb(227, 56, 56);
 }
