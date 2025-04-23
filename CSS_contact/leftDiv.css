@@ -1,0 +1,63 @@
+.leftDiv{
+    padding: 20px;
+    width:50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #eed9b0;
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    text-shadow: 0 0 10px #000;
+}
+.navigator{
+    color: #dbdbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navigator a{
+    color: inherit;
+    text-decoration: none;
+    margin:0 12px 0 12px;
+}
+.navigator a:hover{
+    text-shadow: 0 0 5px #dbdbdb;
+}
+.navigator a:active{
+    color: #f06b6b;
+    text-shadow: 0 0 5px #eed9b0;
+}
+.subDiv{
+    border: 1px dotted #dbdbdb;
+    border-radius: 5px;
+    margin:10px;
+    padding: 10px;
+}
+.subTitle{
+    padding: 5px 10px 5px 10px;
+    background-color:rgba(133, 100, 24, 0.5);
+}
+.subTitle h2{
+    color: #eed9b0;
+    margin: 0;
+}
+.subContent{
+    display: flex;
+    flex-direction: column;
+    color:#dbdbdb;
+    padding:0 10px 0 10px;
+}
+.subContent a{
+    color: inherit;
+    text-decoration: none;
+}
+.subContent a:hover{
+    text-shadow: 0 0 5px #dbdbdb;
+}
+.subContent a:active{
+    color: #f06b6b;
+    text-shadow: 0 0 5px #eed9b0;
+}

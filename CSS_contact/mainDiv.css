@@ -1,7 +1,7 @@
 @media  (max-width:1248px) {
     .floatTag{
         position: absolute !important;
-        left:85% !important;
+        left:70% !important;
     }
     .mainDiv{
         display: flex !important;
@@ -11,13 +11,13 @@
         margin-left:50px !important;
     }
     .leftDiv{
-        width: inherit !important;
+        width: 85% !important;
         padding-right: 20px!important;
     }
     .rightDiv{
-        width: inherit !important;
+        width: 100%!important;
         height: 600px !important;
-        background-image: url("/SellPage/assets/aboutPic.png");
+        background-image: url("/SellPage/assets/contactPic.png");
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-size: 200% !important;
@@ -34,10 +34,11 @@ body{
 }
 .mainDiv {
     margin-top: 50px !important;
+    width: 60%;
     margin:50px 300px 50px 300px ;
-    background-blend-mode: multiply;
-    background-color: rgb(24, 57, 70);
-    background-image: url("/SellPage/assets/aboutPic.png");
+    background-blend-mode:multiply;
+    background-color: rgb(101, 86, 31);
+    background-image: url("/SellPage/assets/contactPic.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
