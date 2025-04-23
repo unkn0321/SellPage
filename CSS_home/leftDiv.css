@@ -13,13 +13,12 @@
     text-shadow: 0 0 10px #000;
 }
 .navigator{
-    color: #dbdbdb;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .navigator a{
-    color: inherit;
+    color: #dbdbdb;
     text-decoration: none;
     margin:0 12px 0 12px;
 }
